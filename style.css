@@ -46,20 +46,62 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: grey; 
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
-h1,
-p,
+
 div {
   text-align:center;
 }
 
 h1 {
 color: grey; /* Change the color property to specify the desired grey color */
+font-size: 40px;
 }
 
+.textBorderRome{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+  text-align: center;
+}
 
 .border img {
   display: block; /* Ensure images are displayed as block elements */
   margin-bottom: 60px; /* Add some space between images */
 }
+
+.navigationBar{
+  color: grey; 
+  text-align: center;
+  display: inline;
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  li a:hover {
+    background-color: #111;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgrey;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 26px;
+  text-align: left;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
