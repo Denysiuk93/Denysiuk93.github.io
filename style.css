@@ -1,28 +1,44 @@
-/* 
-<div class = 'geom.avif'>
-<div class='geom.avif'>
-  <img src='geom.avif'>
-  <img src='geom.avif'>
-  <img src='geom.avif'>
-  <img src=''>
-
-</div> */
 
 .p1 {
   font-family: "Times New Roman", Times, serif;
 }
 
-
-/* 
-<div class = 'geom.avif'>
-<div class='geom.avif'>
-  <img src='geom.avif'>
-  <img src='geom.avif'>
-  <img src='geom.avif'>
-  <img src=''>
-
-</div> */
-
 .p1 {
   font-family: "Times New Roman", Times, serif;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  margin-right: 0 40px; 
+}
+
+.italian-photo {
+  float: left; /* Float the image to the left */
+  margin-right: 20px; /* Add margin to create space between image and text */
+}
+
+.image img {
+  margin-right:10px; 
+  .image img {
+    display: flex;
+  }
+}
+
+
+.left-align {
+    text-align: left;
+}
+
+.larger-bullets {
+  list-style-type: disc; /* Change bullet point style */
+  font-size: 20px; /* Adjust font size for list items */
+}
+
